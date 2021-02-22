@@ -1,0 +1,6 @@
+function prosesPesan(update){
+ var raw_text = JSON.stringify(update);
+ if(/^\/start/g.exec(raw_text)){
+  tg.sendMsg(msg, 'hai bot ini di buat menggunakan gas dan github');
+ }
+}
