@@ -1,3 +1,4 @@
+tg.kirimPesan('1051577909','tes');
 var raw_text = JSON.stringify(update);
 for(is in update){
  if(/(edited_)*(message|channel_post)/g.exec(is)){
